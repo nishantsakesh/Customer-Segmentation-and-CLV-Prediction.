@@ -49,8 +49,7 @@ project/
 Step 1: Clone and Set Up Environment
 
 # Clone the repository
-git clone [https://github.com/your-username/customer-segmentation-project.git](https://github.com/your-username/customer-segmentation-project.git)
-cd customer-segmentation-project
+
 
 # Create and activate a virtual environment
 python3 -m venv venv
@@ -126,5 +125,6 @@ Live Prediction: Loads the pre-trained clv_model.pkl and scaler.pkl to predict t
 Interactive Visuals: Includes Plotly charts for segment distribution, R-F scatter plots, and customer profiles.
 
 Customer Search: A search box to look up any CustomerID and see their full profile.
+
 
 Manual Predictor: A form to manually enter customer metrics (R, F, M) and get an instant CLV prediction.
